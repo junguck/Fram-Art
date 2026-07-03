@@ -8,6 +8,8 @@
 prototyope: alice@example.com
             admin@frameart.io
             marc@example.com
+
+ces prototype n'on pas besoin de bd et les mot de passe sont password
 ## 📍 OÙ ÊTES-VOUS?
 
 
