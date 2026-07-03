@@ -18,7 +18,7 @@ import PublicProfilePage from './features/profiles/PublicProfilePage';
 import AdminDashboard from './features/admin/AdminDashboard';
 import NotificationPage from './features/notification/NotificationPage';
 import LandingPage from './features/home/LandingPage';
-import react from 'react';
+import react from 'react-';
 
 function ProtectedRoute({ children, requiredRole }: { children: React.ReactNode; requiredRole?: string }) {
   const { user, loading } = useAuth();
