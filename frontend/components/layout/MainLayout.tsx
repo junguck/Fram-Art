@@ -9,7 +9,6 @@ const MainLayout: React.FC = () => {
 
   return (
     <div className="flex h-screen bg-[#f0f0f0] overflow-hidden font-sans">
-      {/* Sidebar verticale */}
       <Sidebar />
 
       {/* Conteneur principal */}
