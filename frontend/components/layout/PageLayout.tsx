@@ -1,0 +1,1 @@
+// Structure commune avec la Sidebar à gauche et l' Outlet à droite.

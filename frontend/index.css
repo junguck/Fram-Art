@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer utilities {
+  .floating-soft {
+    animation: float-soft 13s ease-in-out infinite;
+  }
+  .floating-soft-fast {
+    animation: float-soft 10s ease-in-out infinite;
+  }
+  .floating-soft-slow {
+    animation: float-soft 18s ease-in-out infinite;
+  }
+  .floating-tilt {
+    animation: float-tilt 12s ease-in-out infinite;
+  }
+}
+
+@keyframes float-soft {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(3px, -14px, 0) scale(1.02);
+  }
+}
+
+@keyframes float-tilt {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(8px, -8px, 0) rotate(1.2deg);
+  }
+}

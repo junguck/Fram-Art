@@ -1,0 +1,1 @@
+// Le graphique en camembert (utilisant une lib comme Chart.js ou Recharts).

@@ -1,0 +1,1 @@
+// Les lignes de l'historique "a poster une oeuvre" avec l'avatar rond.

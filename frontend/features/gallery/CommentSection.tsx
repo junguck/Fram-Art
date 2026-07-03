@@ -1,0 +1,1 @@
+// L'overlay semi-transparent qui affiche les commentaires.
