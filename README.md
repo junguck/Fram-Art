@@ -10,6 +10,7 @@ prototyope: alice@example.com
             marc@example.com
 
 ces prototype n'on pas besoin de bd et les mot de passe sont password
+avec react
 ## 📍 OÙ ÊTES-VOUS?
 
 
