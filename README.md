@@ -74,56 +74,6 @@ Via Swagger UI (`http://localhost:5000/docs`):
 
 ---
 
-## 📚 DOCUMENTATION
-
-### 🟢 Pour COMMENCER
-- **[COMPLETION_SUMMARY.md](COMPLETION_SUMMARY.md)** - Vue d'ensemble tout ce qui est prêt
-- **[backend/README.md](backend/README.md)** - Guide démarrage backend
-
-### 🟡 Pour CONTINUER (Phase 2)
-- **[PHASE_2_ROADMAP.md](PHASE_2_ROADMAP.md)** - Plan détaillé + ordre priorité
-- **[IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md)** - Résumé structure
-
-### 🔴 Pour NETTOYER Frontend (Phase 3)
-- **[FRONTEND_CLEANUP.md](FRONTEND_CLEANUP.md)** - Fichiers à supprimer & modifier
-
-### 📊 Pour TRACKER Progress
-- **[backend/ROUTES_STATUS.md](backend/ROUTES_STATUS.md)** - État 60 endpoints
-- **[BACKEND_PLAN.md](BACKEND_PLAN.md)** - Plan routes & BD MongoDB
-
----
-
-## 📊 STATUT ACTUEL
-
-### ✅ PHASE 1: Structure Backend (COMPLÉTÉE)
-- Dossiers créés
-- Configuration (settings, database, constants)
-- Middleware (auth, errors)
-- Models (22 schemas Pydantic)
-- Services: Auth (3), Users (10)
-- Routes: Auth (3 implémentés), Users (12 implémentés)
-- Utils: JWT, encryption, DB helpers
-
-**Résultat**: 13/60 endpoints fonctionnels ✅
-
-### 🔄 PHASE 2: Services restants (PRÊT À COMMENCER)
-À implémenter (dans cet ordre):
-1. **OeuvreService** (12 endpoints) - 3h
-2. **CommentaireService** (8 endpoints) - 2h
-3. **FavoriService** (7 endpoints) - 2h
-4. **Artiste, Candidature, Message, Notification, Signalement, Abonnement** (20 endpoints) - 8h
-
-**Temps estimé**: 15-16 heures
-
-### ⏳ PHASE 3: Frontend (Après Phase 2)
-- Nettoyer `src/hooks/`, `src/routes/`, fichiers inutiles
-- Réécrire `src/services/api.ts` (tous 60 endpoints)
-- Intégrer `AuthContext` (JWT)
-- Brancher tous les composants
-
-### ⏳ PHASE 4: Tests + Deploy
-
----
 
 ## 🔧 STACK TECHNIQUE
 
